@@ -86,23 +86,6 @@
     <br><br>
     <textarea cols="150" rows="6" readonly>{{.Output}}</textarea>
   </div>
-  
-
-<!-- <form action="/" method="post">
-  <table>
-  <tr>
-  <td>Start: <input type="time" name="start" value="{{.Start}}"></td>
-  <td>End: <input type="time" name="end" value="{{.End}}"></td>
-  <td>TestInput: <input type="text" name="TestInput" value="{{.TestInput}}"></td>
-  </tr>
-  <tr>
-  <td>Start: <input type="time" name="start2" value="{{.Start}}"></td>
-  <td>End: <input type="time" name="end2" value="{{.End}}"></td>
-  <td>TestInput: <input type="text" name="TestInput2" value="{{.TestInput2}}"></td>
-  </tr>
-  </table>
-  <div class="description"><input type="submit" value="Save"></div>
-</form> -->
   <footer>
     <div class="author">
       Official website:
