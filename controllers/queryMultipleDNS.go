@@ -18,8 +18,8 @@ func QueryMultipleDNS(domainName string) string {
 		//"Cloudflare IPv6": "[2606:4700:4700::1111]:53",
 		"OpenDNS": "208.67.222.222:53",
 		//"OpenDNS IPv6":    "[2620:119:35::35]:53",
-		"Freifunk MUC":         "5.1.66.255:53",   //IPv6: 2001:678:e68:f000::"
-		"Censurfridns Denmark": "89.233.43.71:53", //IPv6: 2001:67c:28a4::
+		"Freifunk MUC": "5.1.66.255:53", //IPv6: 2001:678:e68:f000::"
+		//"Censurfridns Denmark": "89.233.43.71:53", //IPv6: 2001:67c:28a4:: doesn't provide classic port 53 anymore
 	}
 
 	domainNamePunycode, err := idna.Display.ToASCII(domainName)
